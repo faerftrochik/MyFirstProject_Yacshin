@@ -11,7 +11,7 @@ import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
 
-    val resultTextView: TextView = findViewById<TextView>(R.id.textView_zero)
+    val textView_zero = findViewById<TextView>(R.id.textView_zero)
     val randomInt = Random.nextInt(6) + 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
